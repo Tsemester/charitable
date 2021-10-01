@@ -12,9 +12,9 @@ include('config.php');
   //user is not logged in 
 
 
-  //redirect to loign page 
+  //redirect to login page 
 
-  $_SESSION['no_login_message']= "<div class = 'error text-center'> Please Login To Your Organization </div> ";
+  $_SESSION['no_login_message']= "<div class = 'error text-center'> Please Login To Your Organization To Acess </div> ";
 
 
     header("location:" . SITEURL . 'organization-login.php');
